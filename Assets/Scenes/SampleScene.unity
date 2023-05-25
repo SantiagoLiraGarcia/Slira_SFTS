@@ -499,7 +499,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439533984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.11, y: 3, z: 14.99}
+  m_LocalPosition: {x: -0.1, y: 3, z: 14.99}
   m_LocalScale: {x: 6, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -627,12 +627,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 474357743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c02f2c2a11155b744875a7f24cf4ea45, type: 3}
+  m_Script: {fileID: 11500000, guid: f650d7b75171c9f4cbb7908df430bf59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Alien1Prefab: {fileID: 7847551486690742761, guid: 05825e170db357c449e3812de7c1cbc6,
+  Alien1Prefab: {fileID: 7847551486690742761, guid: b141ccb723d7ed049a0e81ad438ff0a0,
     type: 3}
-  Alien2Prefab: {fileID: 8784727911196075430, guid: 987768017ada5e24a9caefe05237d1a8,
+  Alien2Prefab: {fileID: 8784727911196075430, guid: cc180af3ab0777649a9b18d1b48af103,
     type: 3}
   spawnCycle: 2
 --- !u!1 &705507993
@@ -1096,12 +1096,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1322911154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb28e90cef668774e86e54198fa5bdb7, type: 3}
+  m_Script: {fileID: 11500000, guid: f650d7b75171c9f4cbb7908df430bf59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Alien1Prefab: {fileID: 7847551486690742761, guid: 05825e170db357c449e3812de7c1cbc6,
+  Alien1Prefab: {fileID: 7847551486690742761, guid: bc57b18d0dbd3cc44b680b92fd6b69ca,
     type: 3}
-  Alien2Prefab: {fileID: 8784727911196075430, guid: 987768017ada5e24a9caefe05237d1a8,
+  Alien2Prefab: {fileID: 8784727911196075430, guid: 7096e55cee0174744bc9080b03470773,
     type: 3}
   spawnCycle: 2
 --- !u!1 &1349532892
@@ -1209,12 +1209,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1349532892}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a72d8e6a949e7fb459aeb8606176eb66, type: 3}
+  m_Script: {fileID: 11500000, guid: f650d7b75171c9f4cbb7908df430bf59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Alien1Prefab: {fileID: 7847551486690742761, guid: 05825e170db357c449e3812de7c1cbc6,
+  Alien1Prefab: {fileID: 7847551486690742761, guid: dcab7dfd4a3da3a49a298c8701665255,
     type: 3}
-  Alien2Prefab: {fileID: 8784727911196075430, guid: 987768017ada5e24a9caefe05237d1a8,
+  Alien2Prefab: {fileID: 8784727911196075430, guid: d76ccc9ca3cd79049bb980deefd0336b,
     type: 3}
   spawnCycle: 2
 --- !u!1 &1575597414

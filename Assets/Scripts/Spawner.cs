@@ -31,11 +31,14 @@ public class Spawner : MonoBehaviour
              else
                  temp = Instantiate(Alien2Prefab) as GameObject;
             
-            Vector3 position = temp.transform.position;
-            position.x = Random.Range(-3f, 3f);
-            position.y = Random.Range(0f, 4f);
-            temp.transform.position = position;
-
+            /*Vector3 position = temp.transform.position;
+            {
+                position.x = Random.Range(-15f, 15f);
+                position.y = Random.Range(1f, 5f);
+                position.z = Random.Range(-15f, 15f);
+                temp.transform.position = position;
+            }*/
+            
             Collidable col = temp.GetComponent<Collidable>();
             col.manager = manager;
 

@@ -108,10 +108,10 @@ GameObject:
   - component: {fileID: 7933338596598658382}
   - component: {fileID: 6937092775949096877}
   - component: {fileID: 4795028733513215284}
-  - component: {fileID: -1612581186352549099}
-  - component: {fileID: 12441877791059102}
+  - component: {fileID: -6086413348694390739}
+  - component: {fileID: -6222213706077320874}
   m_Layer: 0
-  m_Name: Alien2
+  m_Name: Alien2 2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,7 +125,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8784727911196075430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 15}
+  m_LocalPosition: {x: 0, y: 3, z: -15}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 8748212443784128224}
@@ -210,7 +210,7 @@ MonoBehaviour:
   manager: {fileID: 0}
   moveSpeed: 10
   timeAmount: 1.5
---- !u!198 &-1612581186352549099
+--- !u!198 &-6086413348694390739
 ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4916,7 +4916,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &12441877791059102
+--- !u!199 &-6222213706077320874
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
