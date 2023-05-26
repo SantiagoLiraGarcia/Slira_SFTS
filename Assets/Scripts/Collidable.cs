@@ -16,7 +16,14 @@ public class Collidable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
     }
 }
    
