@@ -437,7 +437,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439533984}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -521,7 +521,7 @@ MonoBehaviour:
     type: 3}
   Alien2Prefab: {fileID: 8784727911196075430, guid: 987768017ada5e24a9caefe05237d1a8,
     type: 3}
-  spawnCycle: 2
+  spawnCycle: 4
 --- !u!1 &474357743
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +634,7 @@ MonoBehaviour:
     type: 3}
   Alien2Prefab: {fileID: 8784727911196075430, guid: cc180af3ab0777649a9b18d1b48af103,
     type: 3}
-  spawnCycle: 2
+  spawnCycle: 4
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,7 +1166,7 @@ MonoBehaviour:
     type: 3}
   Alien2Prefab: {fileID: 8784727911196075430, guid: 7096e55cee0174744bc9080b03470773,
     type: 3}
-  spawnCycle: 2
+  spawnCycle: 4
 --- !u!1 &1349532892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1195,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349532892}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1279,7 +1279,64 @@ MonoBehaviour:
     type: 3}
   Alien2Prefab: {fileID: 8784727911196075430, guid: d76ccc9ca3cd79049bb980deefd0336b,
     type: 3}
-  spawnCycle: 2
+  spawnCycle: 4
+--- !u!1001 &1573982403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 133274, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_Name
+      value: CaveMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444058, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6fa6554b008b146d88b6469bdb804e6f, type: 3}
 --- !u!1 &1575597414
 GameObject:
   m_ObjectHideFlags: 0

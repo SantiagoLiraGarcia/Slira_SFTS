@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
             Rect boxRect = new Rect(Screen.width / 2 - 60, Screen.height / 2 - 100, 120, 50);
             GUI.Box(boxRect, "Game Over");
             Rect labelRect = new Rect(Screen.width / 2 - 55, Screen.height / 2 - 80, 90, 40);
-            GUI.Label(labelRect, "Total Time: " + (int)totalTimeElapsed);
+            GUI.Label(labelRect, "Total Time Stalled: " + (int)totalTimeElapsed);
 
             Time.timeScale = 0;
         }
